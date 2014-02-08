@@ -2,9 +2,6 @@
 
 }
 .jQueryPopup *:last-child{margin-bottom:0;}
-.jQueryPopup h1{
-  margin:0 0 10px 0;
-}
 .jQueryPopup h1,.jQueryPopup h2,.jQueryPopup h3,.jQueryPopup h4,
 .jQueryPopup .form-actions, .jQueryPopup form{
     line-height:1;
@@ -173,7 +170,7 @@
 
 .jQueryPopup .box h1{
     text-align: center;
-    margin:0;
+    margin:0 0 10px 0;
     padding:0;
     font-size:1.5em;
     text-align:left;
