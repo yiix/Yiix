@@ -10,6 +10,7 @@ class jQueryPopup extends WidgetsBase{
         Yii::app()->clientScript->registerCoreScript('jquery.ui');
         $this->createWidget('widgets.jGritter');
         $this->createWidget('widgets.jQueryAjaxSanitizer');
+        $this->createWidget('widgets.jQueryRequest');
         parent::registerScripts();
         Yii::app()->clientScript->registerScriptFile($this->assetsPath.'/jQueryPopupPosition.js',CClientScript::POS_END);
     }
